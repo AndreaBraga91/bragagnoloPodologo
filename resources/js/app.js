@@ -14,7 +14,7 @@ var $ = jQuery
 import.meta.glob([
     '../images/**',
     '../fonts/**',
-  ]);
+]);
 
 import gsap from 'gsap'
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -168,6 +168,7 @@ document.addEventListener("DOMContentLoaded", (event) => {
         tl6.to('body', {duration: 5})
         tl6.fromTo('.title6', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
         tl6.fromTo('.parag-6', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
+        tl6.to('.btn-footer', {opacity: 0, scale:1.5, y:400, duration: 5})
     }
 
     if (page == 'chi-sono') {
@@ -243,4 +244,23 @@ document.addEventListener("DOMContentLoaded", (event) => {
         }}, duration)
     }
 
+    if (page == 'patologie-show') {
+        const items = $('.accordion1 button');
+
+        function toggleAccordion() {
+        const itemToggle = this.getAttribute('aria-expanded');
+
+        for (let i = 0; i < items.length; i++) {
+            items[i].setAttribute('aria-expanded', 'false');
+        }
+
+        if (itemToggle == 'false') {
+            this.setAttribute('aria-expanded', 'true');
+        }
+        }
+
+        items.toArray().forEach(item => item.addEventListener('click', toggleAccordion));
+    }
+
+    $('.loader').addClass('d-none')
 });

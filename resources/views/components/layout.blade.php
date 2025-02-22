@@ -16,6 +16,7 @@
 </head>
 
 <body class="overflow-x-hidden">
+    <div class="loader" style="height: 100vh; width: 100vw; background-color: rgb(193, 186, 176); position: fixed; top:0; left:0;"></div>
     <div id="nav-icon">
         <span></span>
         <span></span>
@@ -41,8 +42,30 @@
     <main class="bg-beige container-fluid overflow-x-hidden" {{ $attributes }}>
         {{ $slot }}
     </main>
-    <footer class="container-fluid bg-beige">
-
+    <footer class="container-fluid bg-beige pt-3">
+        <div class="row justify-content-center">
+            <a href="/" class="col-12 d-flex justify-content-center">
+                <img src="{{ Vite::asset('resources/images/logoAB.svg') }}" alt="" class="footer-logo">
+            </a>
+            <div class="col-12 col-md-2 d-flex justify-content-center">
+                <div class="py-2"><a class="navbar-link" href="/">HOME</a></div>
+            </div>
+            <div class="col-12 col-md-2 d-flex justify-content-center">
+                <div class="py-2"><a class="navbar-link" href="/patologie">PATOLOGIE</a></div>
+            </div>
+            <div class="col-12 col-md-2 d-flex justify-content-center">
+                <div class="py-2"><a class="navbar-link" href="./chi-sono">CHI SONO</a></div>
+            </div>
+            <div class="col-12 col-md-2 d-flex justify-content-center">
+                <div class="py-2"><a class="navbar-link" href="./lo-studio">LO STUDIO</a></div>
+            </div>
+            <div class="col-12 col-md-2 d-flex justify-content-center">
+                <div class="py-2"><a class="navbar-link" href="./contatti">CONTATTI</a></div>
+            </div>
+            <div class="col-8 col-md-4 my-5  p-4 text-center personal-data">
+                Andrea Bragagnolo PIVA: 000000000</br>Via Amerigo Vespucci, 9</br>20025 Legnano (MI)
+            </div>
+        </div>
     </footer>
 </body>
 
