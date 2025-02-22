@@ -54,19 +54,68 @@
                 <div class="py-2"><a class="navbar-link" href="/patologie">PATOLOGIE</a></div>
             </div>
             <div class="col-12 col-md-2 d-flex justify-content-center">
-                <div class="py-2"><a class="navbar-link" href="./chi-sono">CHI SONO</a></div>
+                <div class="py-2"><a class="navbar-link" href="/chi-sono">CHI SONO</a></div>
             </div>
             <div class="col-12 col-md-2 d-flex justify-content-center">
-                <div class="py-2"><a class="navbar-link" href="./lo-studio">LO STUDIO</a></div>
+                <div class="py-2"><a class="navbar-link" href="/lo-studio">LO STUDIO</a></div>
             </div>
             <div class="col-12 col-md-2 d-flex justify-content-center">
-                <div class="py-2"><a class="navbar-link" href="./contatti">CONTATTI</a></div>
+                <div class="py-2"><a class="navbar-link" href="/contatti">CONTATTI</a></div>
             </div>
             <div class="col-8 col-md-4 my-5  p-4 text-center personal-data">
-                Andrea Bragagnolo PIVA: 000000000</br>Via Amerigo Vespucci, 9</br>20025 Legnano (MI)
+                <p>Andrea Bragagnolo PIVA: 03462770128</p>
+                <p>Via Amerigo Vespucci, 9</p>
+                <p>20025 Legnano (MI)</p>
+                <a class="link fw-semibold mx-2" href="tel:+393474960371">+39 347 4960371</a>
+                <span>|</span>
+                <a class="link fw-semibold mx-2" href="mailto:info@podologobragagnolo.it">info@podologobragagnolo.it</a>
+                <a class="mt-2" href="https://wa.me/393474960371">
+                    <img src="{{ Vite::asset('resources/images/WhatsAppButtonWhiteSmall.svg') }}" alt="chat on whatsApp" class="whatsapp">
+                </a>
+                <div>
+                    <span class="mx-2 footer-link">informazioni legali</span> <span>|</span> <span class="mx-2 footer-link">Privacy Policy e Cookie Policy</span>
+                </div>
             </div>
         </div>
     </footer>
+    <div class="modal fade" id="cookie-policy" tabindex="-1" role="dialog" aria-labelledby="cookie policy" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              ...
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
 </body>
 
 </html>

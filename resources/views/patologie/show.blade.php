@@ -7,7 +7,7 @@
                         class="img-fluid img-patologia mt-2">
         </div>
         <div class="col-12 col-md-6 col-lg-3 p-5">
-            <h1 class="display-4">{{ $name }}</h1>
+            <h1 class="display-6">{{$patologie[$name]['name']}}</h1>
             <div class="accordion1">
                 <div class="accordion1-item">
                     <button id="accordion1-button-1" aria-expanded="false"><span class="accordion1-title">Cause</span><span class="icon" aria-hidden="true"></span></button>
@@ -22,7 +22,7 @@
                     </div>
                 </div>
                 <div class="accordion1-item">
-                    <button id="accordion1-button-3" aria-expanded="false"><span class="accordion1-title">trattamenti</span><span class="icon" aria-hidden="true"></span></button>
+                    <button id="accordion1-button-3" aria-expanded="false"><span class="accordion1-title">Terapie</span><span class="icon" aria-hidden="true"></span></button>
                     <div class="accordion1-content">
                         <p>{{$patologie[$name]["cura"]}}</p>
                     </div>
