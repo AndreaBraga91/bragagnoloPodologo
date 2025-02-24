@@ -6,7 +6,7 @@
                     <h3 class="display-6 date">1991 - Le mie origini</h3>
                 </div>
                 <div class="col-8 content-height description">
-                    Sono nato a Busto Arsizio nel 1991 e ho trascorso lì la mia infanzia, completando i miei studi nella stessa città. <br/>
+                    Sono nato nel 1991 a Busto Arsizio dove ho trascorso la mia infanzia e completato i miei studi. <br/>
                     Il mio avvicinamento alla Podologia inizia grazie a mio zio, Raffaele Mastromarino, podologo milanese tra i primi a battersi per il riconoscimento legislativo di questa professione.
                 </div>
             </div>

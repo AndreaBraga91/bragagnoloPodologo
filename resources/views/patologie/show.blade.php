@@ -6,7 +6,7 @@
                     <img src="{{ Vite::asset('resources/images/' . $patologie[$name]['img']) }}" alt="{{ $name }}"
                         class="img-fluid img-patologia mt-2">
         </div>
-        <div class="col-12 col-md-6 col-lg-3 p-5">
+        <div class="col-12 col-md-8 col-lg-5 p-5">
             <h1 class="display-6">{{$patologie[$name]['name']}}</h1>
             <div class="accordion1">
                 <div class="accordion1-item">

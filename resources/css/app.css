@@ -395,6 +395,13 @@ footer {
     border-top: 2px solid rgb(126, 147, 156);
 }
 
+.btn-foot {
+    color: rgb(25, 25, 25);
+    border: none;
+    background: none;
+    font-weight: 600;
+}
+
 @media (max-width: 768px) {
     .img-studio-container {
         position: relative;
