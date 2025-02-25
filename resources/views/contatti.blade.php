@@ -4,9 +4,9 @@
                 <h2 class="display-6">Contatti</h2>
                 <div>Corso Sempione, 119</div>
                 <div>20025 Legnano (MI)</div>
-                <a class="link fw-semibold" href="tel:+393474960371">+39 347 4960371</a>
-                <a class="link fw-semibold" href="mailto:info@podologobragagnolo.it">info@podologobragagnolo.it</a>
-                <a class="" href="https://wa.me/393474960371">
+                <a class="link fw-semibold" href="tel:+393408490061">+39 340 8490061</a>
+                <a class="link fw-semibold" href="mailto:dottbragagnolo@gmail.com">dottbragagnolo@gmail.com</a>
+                <a class="" href="https://wa.me/393408490061">
                     <img src="{{ Vite::asset('resources/images/WhatsAppButtonWhiteSmall.svg') }}" alt="" class="whatsapp">
                 </a>
                 <h2 class="mt-3 display-6">Orari di Apertura</h2>

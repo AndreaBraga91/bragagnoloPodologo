@@ -68,10 +68,10 @@
                 <p>Andrea Bragagnolo PIVA: 03462770128</p>
                 <p>Corso Sempione, 119</p>
                 <p>20025 Legnano (MI)</p>
-                <a class="link fw-semibold mx-2" href="tel:+393474960371">+39 347 4960371</a>
+                <a class="link fw-semibold mx-2" href="tel:+393408490061">+39 340 8490061</a>
                 <span>|</span>
-                <a class="link fw-semibold mx-2" href="mailto:info@podologobragagnolo.it">info@podologobragagnolo.it</a>
-                <a class="mt-2" href="https://wa.me/393474960371">
+                <a class="link fw-semibold mx-2" href="mailto:dottbragagnolo@gmail.com">dottbragagnolo@gmail.com</a>
+                <a class="mt-2" href="https://wa.me/393408490061">
                     <img src="{{ Vite::asset('resources/images/WhatsAppButtonWhiteSmall.svg') }}" alt="chat on whatsApp"
                         class="whatsapp">
                 </a>
