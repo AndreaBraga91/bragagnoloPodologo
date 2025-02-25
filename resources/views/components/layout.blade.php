@@ -11,6 +11,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
         rel="stylesheet">
+    <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="aac44f96-0881-4372-b0db-0295c737f75d" data-blockingmode="auto" type="text/javascript"></script>
     @vite(['resources/js/app.js'])
 
 </head>
@@ -118,7 +119,7 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <h2>Informativa privacy ai sensi degli artt. 13-14 del Regolamento Europeo “Privacy” (GDPR)</h2>
+                    {{-- <h2>Informativa privacy ai sensi degli artt. 13-14 del Regolamento Europeo “Privacy” (GDPR)</h2>
                     <p>
                         I dati personali da Lei inseriti, sono trattati dal proprietario del sito Dr. Bragagnolo Andrea
                         Podologo - Corso Sempione 119 - 20025 Legnano (MI) - +393474960371 in qualità di Titolare, per
@@ -327,7 +328,8 @@
                         </li>
                     </ul>
                     <br />
-                    <p>Ultimo aggiornamento: 06/06/2023.</p>
+                    <p>Ultimo aggiornamento: 06/06/2023.</p> --}}
+                    <script id="CookieDeclaration" src="https://consent.cookiebot.com/aac44f96-0881-4372-b0db-0295c737f75d/cd.js" type="text/javascript" async></script>
                 </div>
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
