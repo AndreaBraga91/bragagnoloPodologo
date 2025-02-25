@@ -39,7 +39,7 @@
                 <h2 class="fw-semibold text-grey title3">
                     Filosofia
                 </h2>
-                <p class="splt2 fs-6 fw-semibold text-grey parag-3">
+                <p class="splt2 fs-6 text-grey parag-3">
                     Oggi è ancora diffusa la mentalità che se il nostro corpo
                     inizia a mutare ma non fa male allora non serve fare nulla,
                     il fatto però è che quando al contrario iniziano i sintomi
@@ -62,7 +62,7 @@
                 <h2 class="fw-semibold text-grey title4">
                     Missione
                 </h2>
-                <p class="splt2 fs-6 fw-semibold text-grey parag-4">
+                <p class="splt2 fs-6 text-grey parag-4">
                     Il podologo deve avere le stesse conoscenze di anatomia,
                     biomeccanica e fisiologia di un medico chirurgo ma con un
                     intento diverso cioè fornire al paziente tutte le indicazioni e
@@ -81,7 +81,7 @@
                 <h2 class="fw-semibold text-grey title5">
                     Visione
                 </h2>
-                <p class="splt2 fs-6 fw-semibold text-grey parag-5">
+                <p class="splt2 fs-6 text-grey parag-5">
                     Non è possibile concepire il piede come una struttura a sé
                     stante poiché questo in realtà è solo parte di un sistema
                     ben più complesso quale è l’arto inferiore.
@@ -107,7 +107,7 @@
                 <h2 class="fw-semibold text-grey title6">
                     Prospettiva
                 </h2>
-                <p class="splt2 fs-6 fw-semibold text-grey parag-6">
+                <p class="splt2 fs-6 text-grey parag-6">
                     Sradicare la mentalità attendista delle persone e fare luce
                     sulle dinamiche del piede, al fine di far comprendere che
                     ereditario non è la deformità ma il malfunzionamento del

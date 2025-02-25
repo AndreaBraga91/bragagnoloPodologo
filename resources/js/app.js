@@ -74,8 +74,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
         tl1.to('.logo-text', {scale: 1.5, opacity: 0, duration: 3})
         tl1.to('.doc-image', {scale: 2, opacity: 0, duration: 3})
         tl1.fromTo('.nav-logo', {opacity: 0}, {opacity:1, duration:3})
-        tl1.to('body', {duration: 4})
-
 
         let tl2 = gsap.timeline({
                 scrollTrigger: {
@@ -89,13 +87,12 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }
         );
 
-        tl2.to('body', {duration: 5})
         tl2.fromTo('.title1', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
         tl2.fromTo('.parag-1', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
         tl2.fromTo('.parag-2', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
         tl2.fromTo('.cit', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
         tl2.from('.btn-footer', {opacity: 0, scale:1.5, y:100, duration: 5})
-        tl2.to('body', {duration: 5})
+        tl2.to('body', {duration: 10})
         tl2.to('.section2', {opacity: 0, duration:5})
 
         let tl3 = gsap.timeline({
@@ -110,12 +107,10 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }
         );
 
-        tl3.to('body', {duration: 5})
         tl3.fromTo('.title3', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
         tl3.fromTo('.parag-3', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
-        tl3.to('body', {duration: 5})
+        tl3.to('body', {duration: 10})
         tl3.to('.section3', {opacity: 0, scale: 1.2, duration:5})
-        tl3.to('body', {duration: 4})
 
         let tl4 = gsap.timeline({
                 scrollTrigger: {
@@ -129,10 +124,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }
         );
 
-        tl4.to('body', {duration: 5})
         tl4.fromTo('.title4', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
         tl4.fromTo('.parag-4', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
-        tl4.to('body', {duration: 5})
+        tl4.to('body', {duration: 10})
         tl4.to('.section4', {opacity: 0, scale: 1.2, duration:5})
 
         let tl5 = gsap.timeline({
@@ -147,10 +141,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
             }
         );
 
-        tl5.to('body', {duration: 5})
         tl5.fromTo('.title5', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
         tl5.fromTo('.parag-5', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
-        tl5.to('body', {duration: 5})
+        tl5.to('body', {duration: 10})
         tl5.to('.section5', {opacity: 0, scale: 1.2, duration:5})
 
 

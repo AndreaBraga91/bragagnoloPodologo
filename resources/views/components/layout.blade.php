@@ -34,9 +34,9 @@
                 <div class="col-12">
                     <div class="text-center display-2"><a class="navbar-link" href="/">HOME</a></div>
                     <div class="text-center display-2"><a class="navbar-link" href="/patologie">PATOLOGIE</a></div>
-                    <div class="text-center display-2"><a class="navbar-link" href="./chi-sono">CHI SONO</a></div>
-                    <div class="text-center display-2"><a class="navbar-link" href="./lo-studio">LO STUDIO</a></div>
-                    <div class="text-center display-2"><a class="navbar-link" href="./contatti">CONTATTI</a></div>
+                    <div class="text-center display-2"><a class="navbar-link" href="/chi-sono">CHI SONO</a></div>
+                    <div class="text-center display-2"><a class="navbar-link" href="/lo-studio">LO STUDIO</a></div>
+                    <div class="text-center display-2"><a class="navbar-link" href="/contatti">CONTATTI</a></div>
                 </div>
             </div>
         </div>
@@ -66,7 +66,7 @@
             </div>
             <div class="col-8 col-md-4 my-5  p-4 text-center personal-data">
                 <p>Andrea Bragagnolo PIVA: 03462770128</p>
-                <p>Via Amerigo Vespucci, 9</p>
+                <p>Corso Sempione, 119</p>
                 <p>20025 Legnano (MI)</p>
                 <a class="link fw-semibold mx-2" href="tel:+393474960371">+39 347 4960371</a>
                 <span>|</span>

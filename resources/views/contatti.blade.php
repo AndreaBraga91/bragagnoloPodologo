@@ -2,7 +2,7 @@
         <section class="row vh-100 p-5 justify-content-center">
             <div class="col-12 col-md-6 col-lg-3 m-4 d-flex flex-column justify-content-center align-items-center contatti">
                 <h2 class="display-6">Contatti</h2>
-                <div>Via Amerigo Vespucci, 9</div>
+                <div>Corso Sempione, 119</div>
                 <div>20025 Legnano (MI)</div>
                 <a class="link fw-semibold" href="tel:+393474960371">+39 347 4960371</a>
                 <a class="link fw-semibold" href="mailto:info@podologobragagnolo.it">info@podologobragagnolo.it</a>
