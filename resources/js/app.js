@@ -178,7 +178,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
                         pinSpacing: false,
                     },
                 })
-                .to('body', {duration: 5})
                 .fromTo('.section' + (i+1) + ' .date', {opacity: 1, scale: 1}, {opacity: 0, y: -200, scale: 0.8, duration: 5})
                 .fromTo('.section' + (i+1) + ' .description', {opacity: 1, scale: 1}, {opacity: 0, y: -200, scale: 0.8, duration: 5})
             } else if (i == (sections.length - 1)) {
@@ -192,9 +191,9 @@ document.addEventListener("DOMContentLoaded", (event) => {
                         pinSpacing: sections.length == i+1 ? true : false,
                     },
                 })
-                .to('body', {duration: 5})
                 .fromTo('.section' + (i+1) + ' .date', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
                 .fromTo('.section' + (i+1) + ' .description', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
+                .to('.mouse-container', {opacity:0, y: 300, duration: 5})
                 .to('body', {duration: 10})
             } else {
                 gsap.timeline({
@@ -207,7 +206,6 @@ document.addEventListener("DOMContentLoaded", (event) => {
                         pinSpacing: sections.length == i+1 ? true : false,
                     },
                 })
-                .to('body', {duration: 5})
                 .fromTo('.section' + (i+1) + ' .date', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
                 .fromTo('.section' + (i+1) + ' .description', {opacity: 0, scale: 1.5, y: 200}, {opacity: 1, y: 0, scale: 1, duration: 5})
                 .to('body', {duration: 10})
