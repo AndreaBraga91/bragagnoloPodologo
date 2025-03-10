@@ -3,7 +3,7 @@
         <div class="col-12 col-md-6 align-self-end align-self-md-center d-flex flex-column">
             <img src="{{ Vite::asset('resources/images/logoAB.svg') }}" alt="logo studio podologico AB" class="img-fluid logo mt-5">
             <div class="logo-text d-flex flex-column align-items-center">
-                <h1 class="text-grey text-center mt-2 display-6">ANDREA BRAGAGNOLO </br>studio podologico</h1>
+                <h1 class="text-grey text-center mt-2 display-6">ANDREA BRAGAGNOLO </br>Podologo</h1>
                 <a class="btn-custom mt-2" href="/contatti">prenota un appuntamento</a>
             </div>
         </div>
@@ -13,7 +13,7 @@
     </section>
     <section class="vh-100 vw-100 row align-items-center justify-content-center overflow-hidden section2">
         <div class="col-12 col-md-5 text-center d-flex flex-column align-items-center justify-content-center">
-            <h1 class="display-6 fw-semibold text-grey title1">Prevenzione</h1>
+            <h2 class="fw-semibold text-grey title1">Prevenzione</h2>
             <p class="parag-1 text-grey">
 
                 Insieme delle azioni ed attività che mirano a ridurre mortalità, morbilità o effetti dovuti a determinati
@@ -128,7 +128,7 @@
     <div class="container fixed-bottom btn-footer">
         <div class="row justify-content-center">
             <div class="col-12 d-flex justify-content-center p-5">
-                <a class="btn-custom" href="/contatti">PRENOTA UN APPUNTAMENTO</a>
+                <a class="btn-custom" href="/contatti">prenota un appuntamento</a>
             </div>
         </div>
     </div>

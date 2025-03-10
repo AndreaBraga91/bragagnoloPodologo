@@ -21,7 +21,7 @@
                     facilmente raggiungibile sia in macchina che con i mezzi di
                     trasporto.</br>
                     L’edificio presenta due ingressi: il principale su Corso
-                    Sempione e uno secondario su Via Savonarola, quest’ultimo
+                    Sempione e uno secondario su Via Girolamo Savonarola, quest’ultimo
                     attrezzato per l’accesso di disabili.</br>
                     Lo studio si sviluppa su una superficie di 100 mq ed è così
                     composto: sala d’attesa con reception, sala medicazioni

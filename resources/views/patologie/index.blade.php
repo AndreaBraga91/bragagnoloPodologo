@@ -1,7 +1,7 @@
 <x-layout data-page="patologie">
     <section class="row vh-100 align-items-center justify-content-center">
         <div class="col-12 col-md-6">
-            <h1 class="text-grey display-2 text-center title">PATOLOGIE</h1>
+            <h1 class="text-grey display-3 text-center title">Patologie</h1>
             <div thumbsSlider="" class="swiper mySwiper mt-4">
                 <div class="swiper-wrapper">
                     @foreach ($patologie as $patologia)
@@ -18,7 +18,7 @@
                             <div class="text text-grey">
                                 <h2 class="display-6">{{ $patologia['name'] }}</h2>
                                 <p class="px-5 fw-light mb-5">{{ $patologia['desc'] }}</p>
-                                <a href="{{ $patologia['url'] }}" class="btn-custom">scopri di piu</a>
+                                <a href="{{ $patologia['url'] }}" class="btn-custom">scopri di più</a>
                             </div>
                         </div>
                     @endforeach
@@ -29,3 +29,4 @@
         </div>
     </section>
 </x-layout>
+860

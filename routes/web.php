@@ -9,49 +9,57 @@ Route::get('/', function () {
 Route::get('/patologie', function () {
     $patologie = [
         [
-            "name" => "ONICOCRIPTOSI",
+            "name" => "Onicocriptosi",
             "url" => "/patologie/onicocriptosi",
             "img" => "onicocriptosi.jpg",
-            "desc" => "L’onicocriptosi, o unghia incarnita, colpisce spesso l’alluce causando dolore, infiammazione, talvolta infezione e granuloma. È dovuta a tagli errati, traumi, calzature inadatte o problemi di appoggio. Il trattamento prevede la rimozione della lamina interessata, medicazioni e monitoraggio fino alla guarigione e completa ricrescita della lamina."
+            "desc" => "L’onicocriptosi, comunemente nota come unghia incarnita,
+è una lesione che si manifesta soprattutto all’alluce,
+associata ad un processo flogistico doloroso, spesso
+purulento e con possibile presenza di granuloma.
+Le cause più frequenti sono problematiche di appoggio che
+portano l’alluce in conflitto con la calzatura o le altre dita,
+taglio scorretto, traumi e calzature non idonee.
+Il trattamento conservativo mira alla risoluzione del
+processo infiammatorio evitandone il cronicizzarsi."
         ],
         [
-            "name" => "ALLUCE VALGO",
+            "name" => "Alluce Valgo",
             "url" => "/patologie/alluce-valgo",
             "img" => "alluceValgo.jpg",
             "desc" => "L’alluce valgo è una patologia caratterizzata da una rotazione in eversione del primo dito sul piano frontale. Non va confuso con l’abduzione (deviazione verso le altre dita) o con la sporgenza del primo metatarso. È causato principaalmente da un appoggio scorretto. La chirurgia corregge la deformità ma non la causa, fondamentali sono quindi plantari su misura per prevenirne o rallentarne l’evoluzione."
         ],
         [
-            "name" => "METATARSALGIA",
+            "name" => "Metatarsalgia",
             "url" => "/patologie/metatarsalgia",
             "img" => "metatarsalgia.jpg",
             "desc" => "La metatarsalgia è un'infiammazione a carico dei tessuti molli delle teste dei metatarsi, con dolore plantare all’avampiede, spesso accompagnato da gonfiore e ispessimenti cutanei. È causata da appoggi errati, traumi, calzature inadeguate o sovrappeso. Il trattamento conservativo, con scarpe adeguate, bendaggi funzionali e plantari su misura, offre risultati eccellenti se applicato correttamente."
         ],
         [
-            "name" => "DITO A MARTELLO",
+            "name" => "Dito a Martello",
             "url" => "/patologie/dito-a-martello",
             "img" => "ditoMartello.jpg",
             "desc" => "Il dito a martello è una deformità caratterizzata dalla dorsiflessione della falange prossimale e dalla plantarflessione di quella intermedia, spesso causando dolore e lesioni. Se il dito è flessibile si parla di atteggiamento, se rigido di deformità. La causa principale è un cattivo appoggio del piede, tipico nei piedi cavi, ma possono contribuire anche artrite, neuropatie e scarpe inadeguate. Il trattamento iniziale prevede medicazioni e calzature adeguate, seguite da ortesi plantari per prevenire il peggioramento."
         ],
         [
-            "name" => "ALLUCE RIGIDO",
+            "name" => "Alluce Rigido",
             "url" => "/patologie/alluce-rigido",
             "img" => "alluceRigido.jpg",
             "desc" => "L’alluce rigido è una patologia degenerativa che riduce la mobilità dell'articolazione metatarso-falangea, causando dolore e gonfiore. Con il tempo, il processo artrosico porta alla formazione di esostosi e osteofiti. È causato da sovraccarico articolare dovuto a sport intensi o disfunzioni meccaniche del piede. La diagnosi precoce è fondamentale, e il trattamento conservativo con ortesi plantari mira a ridurre l’infiammazione e rallentare la progressione della patologia."
         ],
         [
-            "name" => "FASCITE PLANTARE",
+            "name" => "Fascite Plantare",
             "url" => "/patologie/fascite-plantare",
             "img" => "fascitePlantare.jpg",
             "desc" => "La fascite plantare è un'infiammazione dell'aponeurosi plantare, che causa dolore al tallone, più intenso al mattino durante i primi passi, tende a diminuire nel corso della giornata. Può portare alla formazione di un'entesopatia calcifica, noya come spina calcaneale. Le cause principali sono la sindrome pronatoria, il sovrappeso e la rigidità della muscolatura posteriore della gamba. Il trattamento conservativo include ortesi plantari, bendaggi funzionali, stretching e terapie fisiche come onde d'urto."
         ],
         [
-            "name" => "NEUROMA DI MORTON",
+            "name" => "Neuroma di Morton",
             "url" => "/patologie/neuroma-di-morton",
             "img" => "morton.jpg",
             "desc" => "Il Neuroma di Civinini-Morton è un proliferazione non neoplastica ma iperplastica della guaina che riveste il nervo interdigitale, in particolare si manifesta sul ramo del secondo e terzo spazio intermetatarsale, causato da un trauma cronico dovuto alla compressione dell’avampiede. Si manifesta con dolore elettrico e scosse interne al piede, spesso accompagnate da parestesie. Le cause includono scarpe strette e alterazioni biomeccaniche come la sindrome pronatoria. Il trattamento prevede calzature adeguate e ortesi plantari per ridurre la compressione e migliorare la distribuzione del carico."
         ],
         [
-            "name" => "QUINTO DITO VARO",
+            "name" => "Quinto Dito Varo",
             "url" => "/patologie/quinto-dito-varo",
             "img" => "quintoVaro.jpg",
             "desc" => "è un atteggiamento caratterizzato da una inversione del quinto dito sul piano frontale e una sua contemporanea adduzione sul piano traverso, che lo porta in conflitto con il quarto dito. La sporgenza visibile è in realtà la testa del quinto metatarso, deviata in abduzione. Le cause principali sono biomeccaniche, ma possono includere patologie reumatoidi o neurologiche. Il trattamento conservativo con ortesi plantari aiuta a prevenire la deformazione e a ridurre il sovraccarico dell’avampiede."

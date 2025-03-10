@@ -55,7 +55,7 @@
                     <h3 class="display-6 date">2016/2017 - Il mio percorso in autonomia</h3>
                 </div>
                 <div class="col-8 content-height description">
-                    Nel 2016 inizio la mia attività in autonomia, che mi porta nel 2017 a incontrare la Dott.ssa Myriam Cecchi, chirurgo ortopedico specializzato nel trattamento delle patologie dell’avampiede e parte dell’equipe del Dott. Andrea Bianchi, uno dei massimi esperti nel settore e fondatore del PBS (Percutaneous Bianchi System).
+                    Nel 2016 inizio la mia attività in autonomia, che mi porta nel 2017 a incontrare la Dott.ssa Myriam Cecchi, chirurgo ortopedico specializzato nel trattamento delle patologie dell’avampiede e parte dell’equipe del Dott. Andrea Bianchi, uno dei massimi esperti nel settore e fondatore di PBS (Percutaneous Bianchi System).
                 </div>
             </div>
         </div>
