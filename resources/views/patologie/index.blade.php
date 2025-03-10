@@ -29,4 +29,3 @@
         </div>
     </section>
 </x-layout>
-860
