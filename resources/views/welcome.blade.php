@@ -4,13 +4,13 @@
     ogTitle="Studio Podologico AB - Podologo a Legnano"
     ogDescription="Scopri i servizi professionali di podologia offerti dal Dr. Bragagnolo Andrea nel suo studio a Legnano. Prenota una visita oggi!"
     ogImage="{{ Vite::asset('resources/images/logoAB.svg') }}"
-    data-page="home">
+    page="home">
     <section class="vh-100 vw-100 row overflow-hidden section1">
         <div class="col-12 col-md-6 align-self-end align-self-md-center d-flex flex-column">
             <img src="{{ Vite::asset('resources/images/logoAB.svg') }}" alt="logo studio podologico AB" class="img-fluid logo mt-5">
             <div class="logo-text d-flex flex-column align-items-center">
                 <h1 class="text-grey text-center mt-2 display-6">ANDREA BRAGAGNOLO </br>Podologo</h1>
-                <a class="btn-custom mt-2" href="/contatti">prenota un appuntamento</a>
+                <a class="btn-custom mt-2" href="/contatti" aria-label="Prenota un appuntamento con il Dr. Bragagnolo">prenota un appuntamento</a>
             </div>
         </div>
         <div class="col-12 col-md-6 align-self-end d-flex justify-content-center img-container">

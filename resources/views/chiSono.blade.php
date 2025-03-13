@@ -4,7 +4,7 @@
     ogTitle="Chi Sono - Dr. Bragagnolo Andrea | Podologo a Legnano"
     ogDescription="Scopri il percorso professionale e la formazione del Dr. Bragagnolo Andrea, podologo specializzato a Legnano. Un viaggio attraverso esperienza e dedizione alla podologia."
     ogImage="{{ Vite::asset('resources/images/logoAB.svg') }}"
-    data-page="chi-sono">
+    page="chi-sono">
     <section class="section1 row vh-100 text-grey justify-content-center align-items-center">
         <div class="col-12">
             <div class="row justify-content-center">

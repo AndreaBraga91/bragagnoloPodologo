@@ -4,15 +4,15 @@
     ogTitle="Contatti - Studio Podologico AB | Podologo a Legnano"
     ogDescription="Prenota una visita con il Dr. Bragagnolo Andrea, podologo a Legnano. Trova orari, indirizzo e contatti dello studio podologico."
     ogImage="{{ Vite::asset('resources/images/logoAB.svg') }}"
-    data-page="contatti">
+    page="contatti">
         <section class="row vh-100 p-5 justify-content-center">
             <div class="col-12 col-md-6 col-lg-3 m-4 d-flex flex-column justify-content-center align-items-center contatti">
                 <h2 class="display-6">Contatti</h2>
                 <div>Corso Sempione, 119</div>
                 <div>20025 Legnano (MI)</div>
-                <a class="link fw-semibold" href="tel:+393408490061">+39 340 8490061</a>
-                <a class="link fw-semibold" href="mailto:dottbragagnolo@gmail.com">dottbragagnolo@gmail.com</a>
-                <a class="" href="https://wa.me/393408490061">
+                <a class="link fw-semibold" href="tel:+393408490061" aria-label="Chiama il numero di telefono dello studio">+39 340 8490061</a>
+                <a class="link fw-semibold" href="mailto:dottbragagnolo@gmail.com" aria-label="Invia una email al Dr. Bragagnolo">dottbragagnolo@gmail.com</a>
+                <a class="" href="https://wa.me/393408490061" aria-label="Contatta il Dr. Bragagnolo su WhatsApp">
                     <img src="{{ Vite::asset('resources/images/WhatsAppButtonWhiteSmall.svg') }}" alt="" class="whatsapp">
                 </a>
                 <h2 class="mt-3 display-6">Orari di Apertura</h2>

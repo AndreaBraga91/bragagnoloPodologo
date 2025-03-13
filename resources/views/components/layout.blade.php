@@ -78,23 +78,23 @@
         <span></span>
         <span></span>
     </div>
-    <a href="/" class="nav-logo fixed-top">
+    <a href="/" class="nav-logo fixed-top" aria-label="Torna alla home page">
         <img src="{{ Vite::asset('resources/images/logoAB.svg') }}" alt="Studio Podologico AB - Dr. Bragagnolo Andrea Logo" class="img-fluid">
     </a>
     <nav class="container-fluid bg-beige">
         <div class="text-grey container-fluid">
             <div class="row vh-100 align-items-center">
                 <div class="col-12">
-                    <div class="text-center display-2"><a class="navbar-link" href="/">HOME</a></div>
-                    <div class="text-center display-2"><a class="navbar-link" href="/patologie">PATOLOGIE</a></div>
-                    <div class="text-center display-2"><a class="navbar-link" href="/chi-sono">CHI SONO</a></div>
-                    <div class="text-center display-2"><a class="navbar-link" href="/lo-studio">LO STUDIO</a></div>
-                    <div class="text-center display-2"><a class="navbar-link" href="/contatti">CONTATTI</a></div>
+                    <div class="text-center display-2"><a class="navbar-link" href="/" aria-label="Vai alla home page">HOME</a></div>
+                    <div class="text-center display-2"><a class="navbar-link" href="/patologie" aria-label="Esplora le patologie trattate">PATOLOGIE</a></div>
+                    <div class="text-center display-2"><a class="navbar-link" href="/chi-sono" aria-label="Scopri chi è il Dr. Bragagnolo">CHI SONO</a></div>
+                    <div class="text-center display-2"><a class="navbar-link" href="/lo-studio" aria-label="Visita lo studio podologico">LO STUDIO</a></div>
+                    <div class="text-center display-2"><a class="navbar-link" href="/contatti" aria-label="Contatta lo studio">CONTATTI</a></div>
                 </div>
             </div>
         </div>
     </nav>
-    <main class="bg-beige container-fluid overflow-x-hidden" {{ $attributes }}>
+    <main class="bg-beige container-fluid overflow-x-hidden" data-page="{{ $page }}">
         {{ $slot }}
     </main>
     <footer class="container-fluid bg-beige pt-3">
