@@ -1,4 +1,10 @@
-<x-layout data-page="contatti">
+<x-layout
+    title="Contatti - Studio Podologico AB | Podologo a Legnano"
+    description="Contatta il Dr. Bragagnolo Andrea, podologo a Legnano. Prenota una visita presso lo studio in Corso Sempione 119. Orari di apertura e informazioni per appuntamenti."
+    ogTitle="Contatti - Studio Podologico AB | Podologo a Legnano"
+    ogDescription="Prenota una visita con il Dr. Bragagnolo Andrea, podologo a Legnano. Trova orari, indirizzo e contatti dello studio podologico."
+    ogImage="{{ Vite::asset('resources/images/logoAB.svg') }}"
+    data-page="contatti">
         <section class="row vh-100 p-5 justify-content-center">
             <div class="col-12 col-md-6 col-lg-3 m-4 d-flex flex-column justify-content-center align-items-center contatti">
                 <h2 class="display-6">Contatti</h2>

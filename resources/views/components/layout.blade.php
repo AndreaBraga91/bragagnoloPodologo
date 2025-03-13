@@ -1,19 +1,71 @@
 <!doctype html>
-<html lang="en">
+<html lang="it">
 
 <head>
     <meta charset="UTF-8" />
     <link rel="icon" href="{{ Vite::asset('resources/images/logoAB.svg') }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">
-    <title>studio podologico AB</title>
+    <title>{{ $title ?? 'Studio Podologico AB - Dr. Bragagnolo Andrea | Podologo a Legnano' }}</title>
+    <meta name="description" content="{{ $description ?? 'Studio podologico specializzato nel trattamento di patologie del piede. Servizi professionali di podologia a Legnano con il Dr. Bragagnolo Andrea.' }}">
+    <meta name="author" content="Dr. Bragagnolo Andrea">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ url()->current() }}">
+    <meta property="og:title" content="{{ $ogTitle ?? $title ?? 'Studio Podologico AB - Dr. Bragagnolo Andrea' }}">
+    <meta property="og:description" content="{{ $ogDescription ?? $description ?? 'Studio podologico specializzato nel trattamento di patologie del piede. Servizi professionali di podologia a Legnano.' }}">
+    <meta property="og:image" content="{{ $ogImage ?? Vite::asset('resources/images/logoAB.svg') }}">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ url()->current() }}">
+    <meta property="twitter:title" content="{{ $ogTitle ?? $title ?? 'Studio Podologico AB - Dr. Bragagnolo Andrea' }}">
+    <meta property="twitter:description" content="{{ $ogDescription ?? $description ?? 'Studio podologico specializzato nel trattamento di patologie del piede. Servizi professionali di podologia a Legnano.' }}">
+    <meta property="twitter:image" content="{{ $ogImage ?? Vite::asset('resources/images/logoAB.svg') }}">
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="{{ url()->current() }}" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
     <script id="Cookiebot" src="https://consent.cookiebot.com/uc.js" data-cbid="aac44f96-0881-4372-b0db-0295c737f75d" data-blockingmode="auto" type="text/javascript"></script>
     @vite(['resources/js/app.js'])
 
+    <!-- JSON-LD Structured Data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "MedicalBusiness",
+        "name": "Studio Podologico AB - Dr. Bragagnolo Andrea",
+        "image": "{{ Vite::asset('resources/images/logoAB.svg') }}",
+        "@id": "{{ url('/') }}",
+        "url": "{{ url('/') }}",
+        "telephone": "+39 PHONE_NUMBER",
+        "address": {
+            "@type": "PostalAddress",
+            "streetAddress": "20025",
+            "addressLocality": "Legnano",
+            "postalCode": "YOUR_POSTAL_CODE",
+            "addressCountry": "IT"
+        },
+        "geo": {
+            "@type": "GeoCoordinates",
+            "latitude": 45.59620827107636,
+            "longitude": 8.921025676112418
+        },
+        "openingHoursSpecification": [
+            {
+                "@type": "OpeningHoursSpecification",
+                "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+                "opens": "09:00",
+                "closes": "18:00"
+            }
+        ],
+        "priceRange": "€€"
+    }
+    </script>
 </head>
 
 <body class="overflow-x-hidden">
@@ -27,7 +79,7 @@
         <span></span>
     </div>
     <a href="/" class="nav-logo fixed-top">
-        <img src="{{ Vite::asset('resources/images/logoAB.svg') }}" alt="" class="img-fluid">
+        <img src="{{ Vite::asset('resources/images/logoAB.svg') }}" alt="Studio Podologico AB - Dr. Bragagnolo Andrea Logo" class="img-fluid">
     </a>
     <nav class="container-fluid bg-beige">
         <div class="text-grey container-fluid">

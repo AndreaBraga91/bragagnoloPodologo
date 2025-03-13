@@ -1,4 +1,10 @@
-<x-layout data-page="lo-studio">
+<x-layout
+    title="Lo Studio - Studio Podologico AB | Podologo a Legnano"
+    description="Scopri lo studio podologico del Dr. Bragagnolo Andrea a Legnano. Ambiente moderno e attrezzato, facilmente accessibile, con sale specializzate per ogni tipo di trattamento."
+    ogTitle="Lo Studio - Studio Podologico AB | Podologo a Legnano"
+    ogDescription="Visita lo studio podologico del Dr. Bragagnolo Andrea a Legnano. Struttura moderna, accessibile e completamente attrezzata per ogni esigenza podologica."
+    ogImage="{{ Vite::asset('resources/images/logoAB.svg') }}"
+    data-page="lo-studio">
     <section class="container">
         <div class="row vh-100 align-items-center">
             <div class="col-12 col-md-6 d-flex align-items-center justify-content-center img-studio-container vh-100">

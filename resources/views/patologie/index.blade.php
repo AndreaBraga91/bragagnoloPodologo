@@ -1,4 +1,10 @@
-<x-layout data-page="patologie">
+<x-layout
+    title="Patologie del Piede - Studio Podologico AB | Podologo a Legnano"
+    description="Esplora le principali patologie del piede trattate dal Dr. Bragagnolo Andrea. Informazioni dettagliate su diagnosi e trattamenti podologici specializzati."
+    ogTitle="Patologie del Piede - Studio Podologico AB | Podologo a Legnano"
+    ogDescription="Scopri le patologie del piede trattate nel nostro studio podologico. Informazioni complete su sintomi, diagnosi e trattamenti disponibili."
+    ogImage="{{ Vite::asset('resources/images/logoAB.svg') }}"
+    data-page="patologie">
     <section class="row vh-100 align-items-center justify-content-center">
         <div class="col-12 col-md-6">
             <h1 class="text-grey display-3 text-center title">Patologie</h1>

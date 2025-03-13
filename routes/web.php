@@ -26,43 +26,98 @@ processo infiammatorio evitandone il cronicizzarsi."
             "name" => "Alluce Valgo",
             "url" => "/patologie/alluce-valgo",
             "img" => "alluceValgo.jpg",
-            "desc" => "L’alluce valgo è una patologia caratterizzata da una rotazione in eversione del primo dito sul piano frontale. Non va confuso con l’abduzione (deviazione verso le altre dita) o con la sporgenza del primo metatarso. È causato principaalmente da un appoggio scorretto. La chirurgia corregge la deformità ma non la causa, fondamentali sono quindi plantari su misura per prevenirne o rallentarne l’evoluzione."
+            "desc" => "Il termine “valgo” in biomeccanica indica una
+atteggiamento in eversione sul piano frontale, ne consegue
+che con “alluce valgo” si intende un dito ruotato, per
+rendere più comprensibile il concetto, un alluce è valgo
+quando la lamina ungueale non è più rivolta verso l’alto ma
+verso la linea sagittale mediana del corpo.
+Nel tempo, però, per convenzione ortopedica, si è iniziato a
+usare il termine \"alluce valgo\" per descrivere una
+deviazione laterale dell'alluce verso le altre dita. Tuttavia,
+questo atteggiamento dovrebbe in realtà essere definito
+come “abduzione”."
         ],
         [
             "name" => "Metatarsalgia",
             "url" => "/patologie/metatarsalgia",
             "img" => "metatarsalgia.jpg",
-            "desc" => "La metatarsalgia è un'infiammazione a carico dei tessuti molli delle teste dei metatarsi, con dolore plantare all’avampiede, spesso accompagnato da gonfiore e ispessimenti cutanei. È causata da appoggi errati, traumi, calzature inadeguate o sovrappeso. Il trattamento conservativo, con scarpe adeguate, bendaggi funzionali e plantari su misura, offre risultati eccellenti se applicato correttamente."
+            "desc" => "La metatarsalgia è un processo infiammatorio a carico dei
+tessuti molli delle teste dei metatarsi.
+I pazienti riferiscono un dolore plantare in sede all’
+avampiede, associato nei casi più acuti a gonfiore, calore e
+talvolta anche a formazioni cheratosiche, volgarmente
+dette calli o duroni, in corrispondenza delle teste
+metatarsali interessate.
+Una metatarsalgia raramente dipende da un solo fattore,
+spesso infatti è la combinazione di più elementi."
         ],
         [
             "name" => "Dito a Martello",
             "url" => "/patologie/dito-a-martello",
             "img" => "ditoMartello.jpg",
-            "desc" => "Il dito a martello è una deformità caratterizzata dalla dorsiflessione della falange prossimale e dalla plantarflessione di quella intermedia, spesso causando dolore e lesioni. Se il dito è flessibile si parla di atteggiamento, se rigido di deformità. La causa principale è un cattivo appoggio del piede, tipico nei piedi cavi, ma possono contribuire anche artrite, neuropatie e scarpe inadeguate. Il trattamento iniziale prevede medicazioni e calzature adeguate, seguite da ortesi plantari per prevenire il peggioramento."
+            "desc" => "Il termine \"dito a martello\" si riferisce a un atteggiamento o
+deformità caratterizzata dalla dorsiflessione della falange
+prossimale e dalla plantarflessione della falange
+intermedia. Questa situazione spesso provoca un conflitto
+tra il dito e la calzatura, che può portare alla formazione di
+cheratosi, borsiti e ulcere.
+La differenza tra atteggiamento e deformità risiede nel
+fatto che, nel primo caso, il dito è ancora flessibile, mentre
+nel secondo è rigido, con la presenza di un processo
+artrosico a carico della prima articolazione interfalangea.
+"
         ],
         [
             "name" => "Alluce Rigido",
             "url" => "/patologie/alluce-rigido",
             "img" => "alluceRigido.jpg",
-            "desc" => "L’alluce rigido è una patologia degenerativa che riduce la mobilità dell'articolazione metatarso-falangea, causando dolore e gonfiore. Con il tempo, il processo artrosico porta alla formazione di esostosi e osteofiti. È causato da sovraccarico articolare dovuto a sport intensi o disfunzioni meccaniche del piede. La diagnosi precoce è fondamentale, e il trattamento conservativo con ortesi plantari mira a ridurre l’infiammazione e rallentare la progressione della patologia."
+            "desc" => "L’alluce rigido è una patologia a carattere degenerativo che
+porta ad una riduzione del movimento dell’articolazione
+primo metatarso-falangea.
+Questa problematica si manifesta mediante una difficoltà
+nella flesso-estensione dell’alluce, il quale potrebbe
+risultare sollevato rispetto al piano di appoggio con il
+paziente in posizione eretta.
+"
         ],
         [
             "name" => "Fascite Plantare",
             "url" => "/patologie/fascite-plantare",
             "img" => "fascitePlantare.jpg",
-            "desc" => "La fascite plantare è un'infiammazione dell'aponeurosi plantare, che causa dolore al tallone, più intenso al mattino durante i primi passi, tende a diminuire nel corso della giornata. Può portare alla formazione di un'entesopatia calcifica, noya come spina calcaneale. Le cause principali sono la sindrome pronatoria, il sovrappeso e la rigidità della muscolatura posteriore della gamba. Il trattamento conservativo include ortesi plantari, bendaggi funzionali, stretching e terapie fisiche come onde d'urto."
+            "desc" => "La fascite plantare è una patologia del piede caratterizzata
+da un processo infiammatorio a carico del legamento
+arcuato o aponeurosi plantare, struttura fibrosa che origina
+dal calcagno ed arriva sino alle dita, una sorta di fascio di
+tessuti connettivi che supporta l'arco del piede e aiuta a
+distribuire il peso corporeo durante la camminata."
         ],
         [
             "name" => "Neuroma di Morton",
             "url" => "/patologie/neuroma-di-morton",
             "img" => "morton.jpg",
-            "desc" => "Il Neuroma di Civinini-Morton è un proliferazione non neoplastica ma iperplastica della guaina che riveste il nervo interdigitale, in particolare si manifesta sul ramo del secondo e terzo spazio intermetatarsale, causato da un trauma cronico dovuto alla compressione dell’avampiede. Si manifesta con dolore elettrico e scosse interne al piede, spesso accompagnate da parestesie. Le cause includono scarpe strette e alterazioni biomeccaniche come la sindrome pronatoria. Il trattamento prevede calzature adeguate e ortesi plantari per ridurre la compressione e migliorare la distribuzione del carico."
+            "desc" => "Il Neuroma di Civinini-Morton è un proliferazione non
+neoplastica ma iperplastica della guaina che riveste il
+nervo interdigitale, in particolare si manifesta sul ramo del
+secondo e terzo spazio intermetatarsale, subito prima della
+sua biforcazione alla radice delle dita.
+"
         ],
         [
             "name" => "Quinto Dito Varo",
             "url" => "/patologie/quinto-dito-varo",
             "img" => "quintoVaro.jpg",
-            "desc" => "è un atteggiamento caratterizzato da una inversione del quinto dito sul piano frontale e una sua contemporanea adduzione sul piano traverso, che lo porta in conflitto con il quarto dito. La sporgenza visibile è in realtà la testa del quinto metatarso, deviata in abduzione. Le cause principali sono biomeccaniche, ma possono includere patologie reumatoidi o neurologiche. Il trattamento conservativo con ortesi plantari aiuta a prevenire la deformazione e a ridurre il sovraccarico dell’avampiede."
+            "desc" => "Il quinto dito varo, anche chiamato bunionette, è un
+atteggiamento caratterizzato da una inversione (rotazione)
+del quinto dito sul piano frontale e una sua contemporanea
+adduzione sul piano traverso, che lo porta in conflitto con il
+quarto dito.
+Come per l’alluce valgo c’è molta confusione nella
+comprensione di questa patologia in quanto la sporgenza
+ossea che si osserva trattasi non del dito ma della testa del
+quinto metatarso, il quale sviluppa una deformità in
+abduzione.
+"
         ],
     ];
 
@@ -86,58 +141,262 @@ Route::get('/patologie/{name}', function ($name) {
         "onicocriptosi" => [
             "name" => "Onicocriptosi",
             "img" => "onicocriptosi.jpg",
-            "cause" => "L’onicocriptosi, comunemente nota come unghia incarnita, è una lesione che si manifesta soprattutto all’alluce. Le cause più frequenti includono un taglio scorretto, traumi ripetuti, utilizzo di calzature inadeguate e alterazioni biomeccaniche che favoriscono il conflitto dell’alluce con la scarpa o le altre dita. La valutazione iniziale ha lo scopo innanzitutto di individuare ed esporre al paziente le dinamiche che hanno portato all’insorgenza della lesione ",
-            "sintomi" => "L’onicocriptosi si manifesta con dolore intenso, infiammazione locale e, nei casi più avanzati, con la formazione di pus e granuloma. Il tessuto circostante può apparire arrossato e gonfio, rendendo difficoltosa la deambulazione e l’utilizzo di calzature.",
-            "cura" => "Il trattamento prevede la rimozione della porzione di lamina iteressata. Successivamente, si procede con medicazioni mirate fino alla completa remissione del processo infiammatorio. È fondamentale seguire il paziente fino alla ricrescita dell’unghia, educandolo a pratiche corrette di taglio e cura per prevenire recidive.",
+            "cause" => "La principale causa di questa problematica risiede in una
+disfunzione podalica, ad esempio in caso di sindrome
+pronatoria si osserva un valgismo (eversione) dell’alluce
+che porta ad un traumatismo costante del bordo laterale
+del dito con la calzatura, quadro spesso presente negli
+adolescenti perché aggravato da una eccessiva
+sudorazione, tipica di questa età. Altre cause sono una
+gestione scorretta del taglio delle lamine ungueali, traumi
+occasionali oppure l’utilizzo di calzature tropo strette in
+punta.",
+            "sintomi" => "I sintomi sono quelli classici di un processo infiammatorio
+quindi il dito risulta molto dolente ed a causa del maggior
+afflusso di sangue si percepisce un forte pulsare che si
+manifesta attraverso un arrossamento della zona
+interessata, gonfiore e calore.
+Spesso si osserva la fuoriuscita di siero e talvolta la
+presenza di granuloma piogenico.
+Nei casi più gravi il paziente non riesce a tollerare
+nemmeno la pressione del lenzuolo.",
+            "cura" => "La valutazione iniziale ha lo scopo innanzitutto di
+individuare ed esporre al paziente le dinamiche che hanno
+portato all’insorgenza della lesione.
+Il primo approccio cerca di ottenere una remissione dei
+sintomi attraverso delle medicazioni ma se necessario si
+procede alla rimozione della porzione di lamina ungueale
+interessata, medicando il dito sino alla completa
+guarigione.
+In caso di disfunzioni podaliche è fondamentale seguire il
+paziente con la realizzazione di ortesi plantari per evitare il
+recidivarsi del problema.
+",
         ],
         "alluce-valgo" => [
             "name" => "Alluce Valgo",
             "img" => "alluceValgo.jpg",
-            "cause" => "Con il termine alluce valgo si definisce un atteggiamento in eversione del primo dito sul piano frontale, ossia una rotazione dell’alluce. Per rendere più comprensibile il concetto, un alluce è valgo quando la lamina ungueale non è più rivolta verso l’alto ma verso la linea sagittale del corpo. È infatti scorretto associare la definizione di alluce valgo alla deviazione di quest’ultimo verso le altre dita in quanto tale atteggiamento si manifesta invece sul piano traverso ed è quindi da indicarsi come abduzione dell’alluce. Altro errore comune è associare la sporgenza ossea mediale all’alluce, in quanto trattasi non della falange basale del primo dito ma della testa del primo metatarso il quale devia con un atteggiamento in adduzione. Causa principale di queste alterazioni è un appoggio scorretto del piede che comporta un sovraccarico del primo raggio, per tale motivo l’intervento chirurgico di queste patologie mostra spesso un recidivarsi del problema. Altri fattori possono essere patologie reumatoidi o neurologiche.",
-            "sintomi" => "I principali sintomi dell’alluce valgo comprendono dolore locale e infiammazione a causa di uno conflitto con la calzatura",
-            "cura" => "Importante è prevenire tali atteggiamenti con ortesi plantari su misura che blocchino o rallentino l’evoluzione del piede perché un appoggio scorretto si riflette anche e soprattutto sulle strutture sovrapodaliche.",
+            "cause" => "Un appoggio scorretto del piede sicuramente rappresenta
+la causa più importante di questi atteggiamenti, ad
+esempio un eccesso di pronazione di retropiede oppure un
+sovraccarico del primo raggio (primo cuneiforme e primo
+metatarso) che porta inizialmente ad una adduzione ed
+inversione del primo metatarso e conseguente abduzione
+ed eversione dell’alluce.
+Altro errore diffuso infatti è credere che nel quadro appena
+descritto, la sporgenza ossea che si osserva, volgarmente
+chiamata cipolla o bunion, sia la falange dell’alluce, trattasi
+invece della testa del primo metatarso.
+Cause secondarie ma da non trascurare sono patologie
+reumatoidi o neurologiche con andamento degenerativo.",
+            "sintomi" => "In caso di alluce valgo (everso) abbiamo un conflitto del
+bordo laterale, per intenderci quello confinante al secondo
+dito, contro la tomaia della calzatura e questo porta spesso
+ad un importante processo infiammatorio che può
+degenerare in onicocriptosi. Qualora l’alluce, oltre che
+everso risulti particolarmente abdotto, il conflitto si
+sviluppa anche con il secondo dito.
+In caso di sporgenza ossea mediale (cipolla) della testa del
+primo metatarso si potrebbe osservare anche in questa
+sede infiammazione con dolore, arrossamento cutaneo ed
+addirittura una borsite, anche se il sintomo più invalidante
+potrebbe essere plantare ed in particolare si tratterebbe di
+una metatarsalgia da trasferimento di carico delle seconda
+testa metatarsale, sofferente proprio a causa
+dell’allontanamento del primo metatarso.
+",
+            "cura" => "L’approccio terapeutico deve essere necessariamente
+preventivo perché sebbene medicazioni, bendaggi
+funzionali e indicazioni sull’utilizzo di calzature idonee
+possano far regredire il processo infiammatorio, limitandoci
+a questo agiremmo sul sintomo e non sulla causa del
+problema. Ciò comporterebbe il rischio di recidive ma
+soprattutto una degenerazione del quadro clinico, con
+atteggiamenti che diventerebbero vere e proprie deformità
+strutturate.
+La terapia più importante quindi è la realizzazione di ortesi
+plantari che compensino queste disfunzioni del piede e
+aiutino a preservare il più possibile la fisiologica struttura
+anatomica del piede.
+",
         ],
         "metatarsalgia" => [
             "name" => "Metatarsalgia",
             "img" => "metatarsalgia.jpg",
-            "cause" => "La metatarsalgia è una condizione dolorosa che interessa l’avampiede, causata da un'infiammazione dei tessuti molli nella regione delle teste metatarsali. Le cause principali includono appoggio scorretto del piede, conformazione anatomica (piede cavo), traumi ripetuti, calzature inadeguate, sovrappeso e attività fisiche intense. Spesso la metatarsalgia è il risultato di una combinazione di più fattori che contribuiscono al sovraccarico dell’area metatarsale.",
-            "sintomi" => "Il sintomo principale è il dolore plantare localizzato nell’avampiede, che tende ad aggravarsi con il carico e la deambulazione. Nei casi più acuti, possono comparire gonfiore, aumento della temperatura locale e ispessimenti cutanei (cheratosi) in corrispondenza delle teste metatarsali coinvolte.",
-            "cura" => "Il trattamento iniziale è conservativo e, se applicato correttamente, garantisce ottimi risultati. È essenziale consigliare calzature adeguate con un corretto supporto plantare, abbinando eventualmente bendaggi funzionali per sostenere l’avampiede. Nei casi più complessi, la realizzazione di ortesi plantari su misura aiuta a distribuire il carico in modo uniforme, riducendo la pressione sulle teste metatarsali.",
+            "cause" => "Principale causa di metatarsalgia è un appoggio scorretto,
+infatti in caso di pronazione patologica potremmo
+osservare una adduzione del primo metatarso e
+conseguente metatarsalgia da trasferimento di carico alla
+seconda testa metatarsale.
+Altre fattori scatenanti includono la struttura anatomica del
+piede (piede cavo), traumi, calzature non idonee (con una
+suola molto rigida e bassa come scarpe anti-infortunistiche
+e ballerine oppure al contrario tacchi molto alti), attività
+fisiche molto intense, trattamenti estetici troppo aggressivi
+mirati alla rimozione completa di eventuali cheratosi
+plantari ritenute erroneamente la causa del problema, sino
+ad arrivare a condizioni di sovrappeso legate a disfunzioni
+metaboliche come in caso di ipotiroidismo.",
+            "sintomi" => "Come già detto essendo un’infiammazione di natura
+meccanica i sintomi si aggravano con il perdurare del
+carico e si manifestano attraverso un dolore in sede
+plantare all’avampiede, accompagnato talvolta da una
+forte sensazione di pulsazione dovuta al gonfiore ed al
+calore del processo flogistico.
+Ciò porta il paziente a deambulare in modalità antalgica,
+provocando quelli che si possono definire sintomi secondari
+come crampi muscolari a piede e gamba, un appoggio
+sull’esterno del piede che può causare traumi in inversione
+della caviglia e sintomi ad articolazioni sovrapodaliche sino
+ad un maggior gonfiore dell’avampiede non solo in sede
+plantare ma anche delle dita.",
+            "cura" => "La cura deve partire sempre dalla terapia più conservativa
+anche perché in molti casi delle semplici indicazioni
+possono essere risolutive.
+Importante quindi la valutazione iniziale per individuare le
+dinamiche che hanno provocato il problema e consigliare
+delle calzature adatte ad ammortizzare meglio
+l’avampiede, da associare eventualmente a bendaggi
+funzionali di sostegno.
+Qualora questo non fosse sufficiente si dovrebbe optare per
+la realizzazione di un plantare su misura con l’intento di
+ridurre la pressione a carico delle teste metatarsali ed
+avere una distribuzione più omogenea del peso corporeo.",
         ],
         "dito-a-martello" => [
             "name" => "Dito a Martello",
             "img" => "ditoMartello.jpg",
-            "cause" => "Il dito a martello è causato principalmente da un cattivo appoggio del piede, che altera la funzionalità dei muscoli responsabili del movimento delle dita. È comune nei piedi cavi, dove il paziente, per compensare l'instabilità tende a contrarre le dita comeper aggrapparsi al suolo. Altre cause includono artrite reumatoide, neuropatia diabetica, sindrome di Charcot-Marie-Tooth e l'uso di calzature troppo strette o rigide.",
-            "sintomi" => "Il dito si presenta flesso a livello della falange intermedia, con possibile formazione di cheratosi, borsiti e ulcere a causa dello sfregamento con la calzatura. Nei casi iniziali il dito è ancora flessibile (atteggiamento), mentre nei casi avanzati diventa rigido a causa dell'artrosi (deformità strutturata).",
-            "cura" => "Il trattamento iniziale prevede l'uso di calzature adeguate e medicazioni per proteggere le zone di pressione. Successivamente, ortesi plantari su misura possono aiutare a riequilibrare l'attività muscolare e prevenire il peggioramento della deformità."
+            "cause" => "La causa principale del dito a martello è un cattivo
+appoggio del piede che altera la funzionalità dei muscoli
+responsabili del movimento delle dita. Non a caso questa
+problematica si manifesta principalmente nei piedi cavi
+(con arco plantare pronunciato), caratterizzati da una certa
+instabilità e dove il paziente tende a contrarre
+costantemente le dita, come se cercasse di \"aggrapparsi\"
+al suolo.
+Altre cause sono l'artrite reumatoide, patologie
+neurologiche come la sindrome di Charcot-Marie-Tooth,
+oltre all'uso di scarpe troppo strette e rigide.",
+            "sintomi" => "L’atteggiamento iniziale di per sé risulta asintomatico
+perché il dolore in realtà viene provocato dallo
+sfregamento del dito con la calzatura.
+In fase avanzata però, in presenza di una deformità ormai
+strutturata, il paziente percepisce delle fitte interne alle
+articolazioni a causa del processo artrosico sviluppatosi.
+In questo quadro si osserva una riduzione del movimento
+delle dita che risultano fredde e cianotiche, quindi dolenti
+anche durante il riposo notturno.",
+            "cura" => "Il trattamento iniziale prevede la gestione della fase acuta
+attraverso opportune medicazioni e l'adozione di scarpe
+adeguate. Successivamente, potrebbe essere necessario
+ricorrere a ortesi plantari su misura per migliorare la
+stabilità del piede e riequilibrare l'attività muscolare,
+evitando così che l'atteggiamento iniziale evolva in una
+deformità strutturata e quindi irreversibile."
         ],
         "alluce-rigido" => [
             "name" => "Alluce Rigido",
             "img" => "alluceRigido.jpg",
-            "cause" => "L'alluce rigido è causato da un sovraccarico dell'articolazione metatarso-falangea, spesso dovuto ad attività sportive intense o disfunzioni biomeccaniche del piede.",
-            "sintomi" => "Questa problematica si manifesta mediante una difficoltà nella flesso-estensione dell’alluce, il quale potrebbe risultare sollevato rispetto al piano di appoggio con il paziente in posizione eretta. Nella fase iniziale il dolore si presenta solo durante il movimento, come in seguito ad una camminata o ad attività sportiva. Con il progredire della patologia però i sintomi diventano più acuti e costanti e i traumi all’articolazione innescano un processo artrosico che provoca gonfiore e lo sviluppo di sporgenze ossee come esostosi (formazioni superficiali) ed osteofiti (piccole escrescenze lungo i margini articolari) che sostituiscono progressivamente il tessuto cartilagineo. ",
-            "cura" => "L’approccio conservativo mediante la realizzazione di ortesi plantari ha lo scopo, soprattutto nella fase iniziale, di ridurre l’infiammazione e bloccare o rallentare l’evoluzione della patologia."
+            "cause" => "Principali cause di alluce rigido, e della sofferenza della
+cartilagine di qualsiasi articolazione, sono il sovraccarico
+legato per esempio ad attività sportiva molto intensa
+(overuse) e una disfunzione meccanica del piede che
+comporti un rapporto articolare non congruo tra i due capi
+ossei con conseguente consumo disomogeneo della
+cartilagine.
+La diagnosi precoce quindi risulta fondamentale per
+impedire lo sviluppo di danni irreversibili con conseguenze
+che coinvolgono non solo il piede ma più in generale l’arto
+inferiore.",
+            "sintomi" => "Nella fase iniziale il dolore si presenta solo durante il
+movimento, come in seguito ad una camminata o ad
+attività sportiva.
+Con il progredire della patologia però i sintomi diventano
+più acuti e costanti e i traumi all’articolazione innescano un
+processo artrosico che provoca gonfiore e lo sviluppo di
+sporgenze ossee come esostosi (formazioni superficiali) ed
+osteofiti (piccole escrescenze lungo i margini articolari) che
+sostituiscono progressivamente il tessuto cartilagineo.",
+            "cura" => "L’approccio conservativo mediante la realizzazione di ortesi
+plantari ha lo scopo, soprattutto nella fase iniziale, di
+ridurre l’infiammazione e bloccare o rallentare l’evoluzione
+della patologia."
         ],
         "fascite-plantare" => [
             "name" => "Fascite Plantare",
             "img" => "fascitePlantare.jpg",
-            "cause" => "La fascite plantare è causata principalmente da una sindrome pronatoria, dove un eccessivo appiattimento dell'arco plantare comporta uno stiramento dell'aponeurosi plantare. Fattori di rischio includono sovrappeso, uso di calzature inadeguate, attività sportive ad alto impatto e rigidità della muscolatura posteriore della gamba.",
-            "sintomi" => "Dolore localizzato al tallone, più intenso al mattino nei primi passi e dopo lunghi periodi di inattività. Nei casi cronici, il dolore può irradiarsi lungo tutta la pianta del piede e diventare costante. In alcuni casi, può svilupparsi una calcificazione della sua inserzione sul calcagno visibile in radiografia.",
-            "cura" => "Il trattamento conservativo è la terapia d’elezione e prevede la realizzazione di ortesi plantari per controllare l’eccesso di pronazione che scatena il sintomo. L’applicazione di bendaggi funzionali, stretching e terapie fisiche come onde d’urto possono essere parti integranti della cura.."
+            "cause" => "La causa principale è sicuramente una sindrome pronatoria
+in quanto un appiattimento dell’arco plantare mediale
+comporta uno stiramento di questo legamento ma non
+sono fattori secondari l’eccessivo peso corporeo anche
+dovuto a disfunzioni metaboliche, la contrattura della
+muscolatura posteriore della gamba legata ad esempio ad
+attività fisiche molto intense, traumi o calzature troppo
+piatte prive di rialzo al retropiede.",
+            "sintomi" => "Il dolore insorge solitamente in corrispondenza del tallone e
+segue un andamento caratteristico: più intenso al mattino
+durante i primi passi, tende a diminuire nel corso della
+giornata per poi ripresentarsi alla sera.
+Con il cronicizzarsi del problema però la sintomatologia
+potrebbe estendersi a tutta la pianta del piede e diventare
+costante.
+A causa della continua trazione del legamento, un esame
+radiografico potrebbe evidenziare, in corrispondenza della
+sua inserzione sul calcagno, un’entesopatia calcifica,
+comunemente nota come spina calcaneale.",
+            "cura" => "Il trattamento conservativo è la terapia d’elezione e
+prevede la realizzazione di ortesi plantari per controllare
+l’eccesso di pronazione che scatena il sintomo.
+L’applicazione di bendaggi funzionali, stretching e terapie
+fisiche come onde d’urto possono essere parti integranti
+della cura.
+"
         ],
         "neuroma-di-morton" => [
             "name" => "Neuroma di Civinini-Morton",
             "img" => "morton.jpg",
-            "cause" => "Il neuroma di Civinini-Morton è causato da un trauma cronico dovuto alla compressione trasversale dell'avampiede. Fattori predisponenti includono l'uso di calzature strette, artrite reumatoide e sindrome pronatoria, che favoriscono l'allargamento dell'avampiede e lo schiacciamento del nervo interdigitale.",
-            "sintomi" => "Dolore di natura elettrica o sensazione di scossa nel secondo e terzo spazio intermetatarsale. Il paziente può avvertire parestesia e intorpidimento delle dita, con necessità di rimuovere le scarpe per alleviare il fastidio.",
-            "cura" => "La terapia prevede l'uso di calzature comode per ridurre la compressione trasversale del nervo, eventualmente abbinate ad ortesi plantari con sostegno in grado di allargare il ventaglio metatarsale."
+            "cause" => "L’eziologia è da ricercarsi esclusivamente in un trauma
+cronico mediante una compressione trasversale
+dell’avampiede durante la deambulazione, che provoca
+fibrosi ed iperplasia dei fasci nervosi.
+Le cause di questo traumatismo possono essere diverse:
+utilizzo di calzature molto strette in punta o molto fascianti,
+patologie o disfunzioni podaliche come artrite reumatoide
+o sindrome pronatoria che producano un allargamento
+dell’avampiede.",
+            "sintomi" => "I sintomi sono molto caratteristici in quanto il dolore è di
+natura elettrica, scosse, percepite internamente al piede e
+non a livello superficiale o plantare, che comportano la
+necessità di togliersi la calzatura per massaggiare l’area
+indolenzita. Talvolta si associano anche parestesia ed
+intorpidimento delle dita.
+Molto importante eseguire una diagnosi differenziale
+rispetto ad una metatarsalgia, patologia spesso
+concomitante, che interessa un’area simile ma con sintomi
+completamente diversi.",
+            "cura" => "La terapia consiste fondamentalmente nell’utilizzo di
+calzature comode che riducano la compressione trasversale
+di avampiede eventualmente abbinate alla realizzazione di
+ortesi plantari con un sostegno in grado di allargare il
+ventaglio metatarsale."
         ],
         "quinto-dito-varo" => [
             "name" => "Quinto Dito Varo",
             "img" => "quintoVaro.jpg",
-            "cause" => "Le cause sono prevalentemente di natura biomeccanica ossia legate ad un appoggio non corretto che porta ad una sollecitazione eccessiva della fascia esterna dell’avampiede, non devono però essere trascurate patologie reumatoidi o neurologiche",
-            "sintomi" => "Il conflitto tra quarto e quinto dito può provocare lo svilupparsi di cheratosi e lesioni locali, mentre lo sporgere della testa metatarsale l'insorgenza di borsite",
-            "cura" => "Fondamentale è quindi la terapia conservativa di prevenzione mediante la realizzazione di ortesi plantari atte ad evitare la deformazione del quinto metatarso."
+            "cause" => "Le cause sono prevalentemente di natura meccanica ossia
+legate ad un appoggio non corretto che porta ad una
+sollecitazione eccessiva della fascia esterna
+dell’avampiede, non devono però essere trascurate
+patologie reumatoidi o neurologiche.",
+            "sintomi" => "I sintomi sono relativi allo sfregamento che si genera tra
+quarto e quinto dito oppure tra la sporgenza della quinta
+testa metatarsale e la calzatura, con quadri infiammatori
+caratterizzati da borsiti, lesioni e formazioni cheratosiche
+interdigitali.",
+            "cura" => "Fondamentale è la terapia conservativa di prevenzione
+mediante la realizzazione di ortesi plantari atte ad evitare
+la deformazione in abduzione del quinto metatarso e
+conseguente adduzione-inversione del quinto dito."
         ],
     ];
 

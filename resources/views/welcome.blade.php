@@ -1,4 +1,10 @@
-<x-layout data-page="home">
+<x-layout
+    title="Studio Podologico AB - Dr. Bragagnolo Andrea | Podologo a Legnano"
+    description="Studio podologico specializzato nel trattamento di patologie del piede. Servizi professionali di podologia a Legnano con il Dr. Bragagnolo Andrea."
+    ogTitle="Studio Podologico AB - Podologo a Legnano"
+    ogDescription="Scopri i servizi professionali di podologia offerti dal Dr. Bragagnolo Andrea nel suo studio a Legnano. Prenota una visita oggi!"
+    ogImage="{{ Vite::asset('resources/images/logoAB.svg') }}"
+    data-page="home">
     <section class="vh-100 vw-100 row overflow-hidden section1">
         <div class="col-12 col-md-6 align-self-end align-self-md-center d-flex flex-column">
             <img src="{{ Vite::asset('resources/images/logoAB.svg') }}" alt="logo studio podologico AB" class="img-fluid logo mt-5">
@@ -15,7 +21,6 @@
         <div class="col-12 col-md-5 text-center d-flex flex-column align-items-center justify-content-center">
             <h2 class="fw-semibold text-grey title1">Prevenzione</h2>
             <p class="parag-1 text-grey">
-
                 Insieme delle azioni ed attività che mirano a ridurre mortalità, morbilità o effetti dovuti a determinati
                 fattori di rischio o patologie.
             </p>

@@ -1,4 +1,10 @@
-<x-layout data-page="patologie-show">
+<x-layout
+    title="{{ $patologie[$name]['name'] }} - Studio Podologico AB | Podologo a Legnano"
+    description="{{ $patologie[$name]['name'] }}, Scopri sintomi, cause e trattamenti disponibili presso lo Studio Podologico AB."
+    ogTitle="{{ $patologie[$name]['name'] }} - Studio Podologico AB"
+    ogDescription="{{ $patologie[$name]['name'] }}, Consulta il Dr. Bragagnolo Andrea per diagnosi e trattamenti professionali."
+    ogImage="{{ Vite::asset('resources/images/' . $patologie[$name]['img']) }}"
+    data-page="patologie-show">
     <div class="row vh-100 align-items-center justify-content-center">
         <div class="col-12 col-md-6 col-lg-3 d-flex flex-column align-items-center align-items-md-start mt-5 mt-md-0">
             <a class="back" href="/patologie">
@@ -11,7 +17,7 @@
             <div class="accordion1">
                 <div class="accordion1-item">
                     <button id="accordion1-button-1" aria-expanded="false"><span class="accordion1-title">Cause</span><span class="icon" aria-hidden="true"></span></button>
-                    <div class="accordion1-content pt-3">
+                    <div class="accordion1-content">
                         <p>{{$patologie[$name]["cause"]}}</p>
                     </div>
                 </div>
